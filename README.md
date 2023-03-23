@@ -42,7 +42,9 @@ Remember to adjust the passwords and other sensitive information according to yo
 This setup uses named volumes for data persistence. The data for the PostgreSQL database and OpenClinica application is stored in the following named volumes:
 
 `ocdb-data`: PostgreSQL database data
+
 `oc-data`: OpenClinica application data
+
 Even if you stop and remove the containers, the data in these named volumes will be preserved. When you restart the containers, the data will be restored.
 
 ## License
